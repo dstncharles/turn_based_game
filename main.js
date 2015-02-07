@@ -1,12 +1,14 @@
 //make character that can take a chariteristic
 
-var Hero = function(quote){
+var Hero = function(quote, health, image){
 
   this.quote = quote;
   this.health = 100;
-  this.prototype.attack= function(number){
-    return Math.random() * 50;
+  this.image = image;
   };
+
+  Hero.prototype.attack= function(number){
+    return Math.random() * 50;
 };
 
 var jonnyCash = new Hero ("You win— 100,000 school children just received a free instrument of their choice");
