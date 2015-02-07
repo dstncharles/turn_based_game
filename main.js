@@ -14,7 +14,7 @@ var jonnyCash = new Hero ("You win— 100,000 school children just received a fr
  var kurtCobain = new Hero ("You win— 100 different groups of friends just started garage bands"
 );
 
-var andre3000 = new Hero ("You win— somthing, somthing, somthing YEAH!!");
+var andre3000 = new Hero ("You win— something, something, something YEAH!!");
 
 var britneySpears = new Hero ('You lost— from now on all singers will be picked by their looks and their voices will be digitally rendered. ');
 
