@@ -4,16 +4,8 @@ var Hero = function(quote){
   var options = options || {};
   _.defaults(options, {
     health: 100,
-
-  // //       hungry: true,
-  // //       color: 'black',
-  // //       owner: undefined
-  // //     });
-  // this.quote = quote;
-  // this.health = 100;
-  // // this.prototype.attack= function(number){
-}  // //   return Math.random() * 50;
-};
+});
+_.extend(this, options);
 };
 
 var jonnyCash = new Hero ({
