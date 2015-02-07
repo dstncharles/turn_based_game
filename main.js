@@ -16,6 +16,7 @@ var Hero = function(quote){
   // // this.prototype.attack= function(number){
   // //   return Math.random() * 50;
 });
+};
 
 
 var jonnyCash = new Hero ({
