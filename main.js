@@ -1,26 +1,39 @@
 //make character that can take a chariteristic
 
 var Hero = function(quote){
+  var options = options || {};
+  _.defaults(options, {
+    health: 100,
 
-  this.quote = quote;
-  this.health = 100;
-  this.prototype.attack= function(number){
-    return Math.random() * 50;
-  };
+  // //       hungry: true,
+  // //       color: 'black',
+  // //       owner: undefined
+  // //     });
+  // this.quote = quote;
+  // this.health = 100;
+  // // this.prototype.attack= function(number){
+}  // //   return Math.random() * 50;
+};
 };
 
-var jonnyCash = new Hero ("You win— 100,000 school children just received a free instrument of their choice");
+var jonnyCash = new Hero ({
+  quote:"You win— 100,000 school children just received a free instrument of their choice"});
 
- var kurtCobain = new Hero ("You win— 100 different groups of friends just started garage bands"
-);
+ var kurtCobain = new Hero ({
+   quote:"You win— 100 different groups of friends just started garage bands"
+});
 
-var andre3000 = new Hero ("You win— somthing, somthing, somthing YEAH!!");
+var andre3000 = new Hero ({
+    quote:"You win— somthing, somthing, somthing YEAH!!"});
 
-var britneySpears = new Hero ('You lost— from now on all singers will be picked by their looks and their voices will be digitally rendered. ');
+var britneySpears = new Hero ({
+  quote:"You lost— from now on all singers will be picked by their looks and their voices will be digitally rendered."});
 
-var Pink = new Hero ('You lost— All song lyrics will now be composed only of cliche’s strung together');
+var Pink = new Hero ({
+  quote:'You lost— All song lyrics will now be composed only of cliche’s strung together'});
 
-var AdamLevine = new Hero ('You lost— Legions of jackbooted boy band members are storming all independent record labels and taking them somewhere never to be seen, or heard from again. ');
+var AdamLevine = new Hero ({
+  quote:'You lost— Legions of jackbooted boy band members are storming all independent record labels and taking them somewhere never to be seen, or heard from again. '});
 
 
 //
